@@ -86,17 +86,7 @@ Setelah konfirmasi **Yes**, produk dihapus dari database dan katalog diperbarui.
 
 ![Hasil hapus](screenshots/07-hasil-hapus.png)
 
-### 8. Validasi Input
 
-Nama kosong atau harga tidak valid (misalnya `abc` atau `0`) ditolak dan pesan kesalahan ditampilkan. Data tidak disimpan.
-
-![Validasi input](screenshots/08-validasi.png)
-
-### 9. Data Tetap Tersimpan Setelah Aplikasi Dibuka Kembali
-
-Aplikasi ditutup lalu dijalankan kembali. Produk yang sebelumnya disimpan tetap tampil karena dibaca dari file database `katalog.db`.
-
-![Data tersimpan](screenshots/09-data-tersimpan.png)
 
 ## Struktur Project
 
