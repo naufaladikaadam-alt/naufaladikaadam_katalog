@@ -1,4 +1,4 @@
-# Katalog Produk UPI Store
+# Katalog Produk 
 
 Aplikasi Katalog Produk UPI Store adalah aplikasi desktop berbasis **JavaFX** yang dibuat untuk memenuhi tugas **Modul 12 - Katalog Produk dengan Database**.
 
