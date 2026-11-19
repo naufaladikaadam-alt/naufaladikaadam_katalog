@@ -1,10 +1,12 @@
-# Katalog Produk 
+# Katalog Produk UPI Store
 
 Aplikasi Katalog Produk UPI Store adalah aplikasi desktop berbasis **JavaFX** yang dibuat untuk memenuhi tugas **Modul 12 - Katalog Produk dengan Database**.
 
 Aplikasi ini digunakan untuk mengelola data produk melalui antarmuka grafis (GUI). Pengguna dapat menambahkan, melihat, mengubah, dan menghapus produk. Seluruh data disimpan dalam database **SQLite**, sehingga tetap ada ketika aplikasi ditutup lalu dibuka kembali.
 
-
+**Nama:** isi nama kamu
+**NIM:** isi NIM kamu
+**Kelas:** isi kelas kamu
 
 ## Fitur Aplikasi
 
@@ -44,31 +46,31 @@ Aplikasi ini digunakan untuk mengelola data produk melalui antarmuka grafis (GUI
 
 ### 1. Tampilan Utama Katalog Produk
 
-Halaman utama menampilkan formulir untuk menambahkan produk dan area katalog yang akan berisi kartu-kartu produk dari database.
+Halaman utama menampilkan formulir untuk menambahkan produk dan area katalog. Pada kondisi awal ini katalog masih kosong (Jumlah produk: 0).
 
 ![Tampilan utama](screenshots/01-tampilan-utama.png)
 
 ### 2. Menambahkan Produk
 
-Pengguna mengisi nama, harga, dan memilih foto, lalu menekan tombol **Simpan**. Produk tersimpan ke database dan muncul sebagai kartu pada katalog.
+Pengguna mengisi nama, harga, dan memilih foto, lalu menekan tombol **Simpan**. Produk tersimpan ke database dan muncul sebagai kartu pada katalog, dengan pesan "Produk berhasil disimpan."
 
 ![Tambah produk](screenshots/02-tambah-produk.png)
 
 ### 3. Katalog Berisi Beberapa Produk
 
-Setiap kartu menampilkan foto, nama, harga, ID, serta tombol **Edit** dan **Hapus**. Jumlah produk diperbarui otomatis.
+Setiap kartu menampilkan foto, nama, harga, ID, serta tombol **Edit** dan **Hapus**. Jumlah produk diperbarui otomatis (pada contoh ini 3 produk).
 
 ![Katalog berisi produk](screenshots/03-katalog-produk.png)
 
 ### 4. Form Edit Produk
 
-Ketika tombol **Edit** pada sebuah kartu ditekan, data produk tersebut dimasukkan ke dalam formulir. Tombol berubah menjadi **Simpan Perubahan** dan muncul tombol **Batal**.
+Ketika tombol **Edit** pada sebuah kartu ditekan, data produk tersebut dimasukkan ke dalam formulir. Label berubah menjadi "Mode: edit produk ID 1", tombol berubah menjadi **Simpan Perubahan**, dan muncul tombol **Batal**.
 
 ![Form edit produk](screenshots/04-form-edit.png)
 
 ### 5. Hasil Update Produk
 
-Setelah tombol **Simpan Perubahan** ditekan, perubahan disimpan ke database dan kartu pada katalog langsung diperbarui.
+Setelah tombol **Simpan Perubahan** ditekan, perubahan disimpan ke database dan kartu pada katalog langsung diperbarui (harga produk susu berubah dari Rp15000 menjadi Rp20000).
 
 ![Hasil update](screenshots/05-hasil-update.png)
 
@@ -80,11 +82,9 @@ Sebelum produk dihapus, aplikasi menampilkan dialog konfirmasi. Jika memilih **N
 
 ### 7. Hasil Penghapusan Produk
 
-Setelah konfirmasi **Yes**, produk dihapus dari database dan katalog diperbarui.
+Setelah memilih **Yes**, produk dihapus dari database dan katalog diperbarui. Pada contoh ini produk kopi terhapus sehingga jumlah produk menjadi 2.
 
 ![Hasil hapus](screenshots/07-hasil-hapus.png)
-
-
 
 ## Struktur Project
 
