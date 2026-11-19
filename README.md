@@ -164,4 +164,4 @@ mvn javafx:run
 
 Project ini bertujuan untuk menerapkan pemrograman GUI menggunakan JavaFX serta memahami penerapan operasi CRUD (Create, Read, Update, Delete) dengan database SQLite melalui JDBC.
 
-**Modul 12 - Katalog Produk UPI Store**
+**Modul 12 - Katalog Produk 
