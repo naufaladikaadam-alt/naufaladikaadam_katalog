@@ -4,7 +4,7 @@ Aplikasi Katalog Produk UPI Store adalah aplikasi desktop berbasis **JavaFX** ya
 
 Aplikasi ini digunakan untuk mengelola data produk melalui antarmuka grafis (GUI). Pengguna dapat menambahkan, melihat, mengubah, dan menghapus produk. Seluruh data disimpan dalam database **SQLite**, sehingga tetap ada ketika aplikasi ditutup lalu dibuka kembali.
 
-<img width="959" height="562" alt="Screenshot 2026-11-19 230437" src="https://github.com/user-attachments/assets/2687d658-4236-499c-a078-acc706b891e8" />
+
 
 
 ## Fitur Aplikasi
@@ -47,43 +47,50 @@ Aplikasi ini digunakan untuk mengelola data produk melalui antarmuka grafis (GUI
 
 Halaman utama menampilkan formulir untuk menambahkan produk dan area katalog. Pada kondisi awal ini katalog masih kosong (Jumlah produk: 0).
 
-![Tampilan utama](screenshots/01-tampilan-utama.png)
+<img width="959" height="562" alt="Screenshot 2026-11-19 230437" src="https://github.com/user-attachments/assets/1043da11-1981-4154-8520-fb74bc68b1d3" />
+
+
 
 ### 2. Menambahkan Produk
 
 Pengguna mengisi nama, harga, dan memilih foto, lalu menekan tombol **Simpan**. Produk tersimpan ke database dan muncul sebagai kartu pada katalog, dengan pesan "Produk berhasil disimpan."
 
-![Tambah produk](screenshots/02-tambah-produk.png)
+
+<img width="944" height="563" alt="Screenshot 2026-11-19 230523" src="https://github.com/user-attachments/assets/64ac45ed-5520-4bea-918c-f2845e2efb88" />
+
 
 ### 3. Katalog Berisi Beberapa Produk
 
 Setiap kartu menampilkan foto, nama, harga, ID, serta tombol **Edit** dan **Hapus**. Jumlah produk diperbarui otomatis (pada contoh ini 3 produk).
 
-![Katalog berisi produk](screenshots/03-katalog-produk.png)
+<img width="949" height="563" alt="Screenshot 2026-11-19 230647" src="https://github.com/user-attachments/assets/85bb64e7-47af-4dc8-ae92-83e9bbb76b6c" />
+
 
 ### 4. Form Edit Produk
 
 Ketika tombol **Edit** pada sebuah kartu ditekan, data produk tersebut dimasukkan ke dalam formulir. Label berubah menjadi "Mode: edit produk ID 1", tombol berubah menjadi **Simpan Perubahan**, dan muncul tombol **Batal**.
 
-![Form edit produk](screenshots/04-form-edit.png)
+<img width="942" height="553" alt="Screenshot 2026-11-19 230907" src="https://github.com/user-attachments/assets/36fd44e1-cac6-4dce-9c9d-1b3f7f072384" />
+
 
 ### 5. Hasil Update Produk
 
 Setelah tombol **Simpan Perubahan** ditekan, perubahan disimpan ke database dan kartu pada katalog langsung diperbarui (harga produk susu berubah dari Rp15000 menjadi Rp20000).
 
-![Hasil update](screenshots/05-hasil-update.png)
+<img width="956" height="554" alt="Screenshot 2026-11-19 231001" src="https://github.com/user-attachments/assets/489cfc6f-04ee-4c94-8160-4d5093649f68" />
 
 ### 6. Konfirmasi Penghapusan Produk
 
 Sebelum produk dihapus, aplikasi menampilkan dialog konfirmasi. Jika memilih **No**, data tidak berubah.
 
-![Konfirmasi hapus](screenshots/06-konfirmasi-hapus.png)
+<img width="943" height="557" alt="Screenshot 2026-11-19 231049" src="https://github.com/user-attachments/assets/6284c9fe-8f7a-47e6-ab9e-3749e5b60280" />
+
 
 ### 7. Hasil Penghapusan Produk
 
 Setelah memilih **Yes**, produk dihapus dari database dan katalog diperbarui. Pada contoh ini produk kopi terhapus sehingga jumlah produk menjadi 2.
 
-![Hasil hapus](screenshots/07-hasil-hapus.png)
+<img width="942" height="560" alt="Screenshot 2026-11-19 231251" src="https://github.com/user-attachments/assets/967041ff-6151-414b-83cd-c49e54365445" />
 
 ## Struktur Project
 
