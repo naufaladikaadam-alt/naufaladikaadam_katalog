@@ -4,9 +4,7 @@ Aplikasi Katalog Produk UPI Store adalah aplikasi desktop berbasis **JavaFX** ya
 
 Aplikasi ini digunakan untuk mengelola data produk melalui antarmuka grafis (GUI). Pengguna dapat menambahkan, melihat, mengubah, dan menghapus produk. Seluruh data disimpan dalam database **SQLite**, sehingga tetap ada ketika aplikasi ditutup lalu dibuka kembali.
 
-**Nama:** isi nama kamu
-**NIM:** isi NIM kamu
-**Kelas:** isi kelas kamu
+
 
 ## Fitur Aplikasi
 
